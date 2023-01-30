@@ -1,0 +1,85 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --dark: hsl(234, 12%, 34%);
+    --grayish: hsl(229, 6%, 66%);
+    --light: hsl(0, 0%, 98%);
+}
+
+main{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--light);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.box {
+    border-top: 5px solid;
+    width: 345px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 3%;
+    box-shadow: 5px 5px 5px var(--grayish);
+    position: relative;
+}
+
+.two {
+    /* grid-row: 1/ span 2; */
+}
+
+h1 {
+    font-weight: 200;
+    color: var(--dark);
+}
+
+h2 {
+    color: var(--dark);
+}
+
+p {
+    font-weight: 200;
+    color: var(--grayish);
+    padding-bottom: 5%;
+}
+
+.one {
+    border-top-color: var(--cyan);
+}
+
+.two {
+    border-top-color: var(--red);
+}
+
+.three {
+    border-top-color: var(--orange);
+}
+
+.four {
+    border-top-color: var(--blue);
+}
+
+img {
+    position: absolute;
+    right: 0;
+    padding-right: 10%;
+}
+
+/* .box img {
+    display: flex;
+    justify-content: end;
+} */
