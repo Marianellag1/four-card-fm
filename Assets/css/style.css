@@ -101,7 +101,9 @@ img {
     padding-right: 10%;
 }
 
-/* .box img {
-    display: flex;
-    justify-content: end;
+
+/* @media screen and (min-width: 375px) {
+    .grid-container {
+        flex-wrap: wrap;
+    }
 } */
