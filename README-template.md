@@ -43,11 +43,11 @@ Users should be able to:
 
 ### Continued development
 
-I would really like to center box 1 and 4, as the challenge design shows
+I would like for the shadowing to be more blurry and the code in general to be cleaner.
 
 ### Useful resources
 
-- [Google](https://www.google.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Google](https://www.google.com) - helpful!
 
 
 ## Author
